@@ -2,7 +2,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-SQLALCHEMY_DATABASE_URL = 'postgresql://zd:test@localhost/lawe'
+SQLALCHEMY_DATABASE_URL = 'postgresql://fiscor:fwei#@$fewkif@localhost/fiscor_db'
 
 engine = create_engine(SQLALCHEMY_DATABASE_URL)
 
